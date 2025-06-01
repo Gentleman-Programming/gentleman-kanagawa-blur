@@ -86,7 +86,7 @@ local default_config = {
 Para configurar una opción, debes pasar esa configuración con el nuevo valor, siguiendo la estructura de la configuración predeterminada:
 
 ```lua
-require("gentleman-kanagawa-blur").setup({
+require("gentleman_kanagawa_blur").setup({
     variant = "sakura_night_blur", -- Cambiar aquí la variante ( sakura_night_blur, blur)
     styles = {
         booleans = { italic = true, bold = true },
