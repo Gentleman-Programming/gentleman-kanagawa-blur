@@ -53,7 +53,7 @@ El tema usará los valores por defecto, a menos que cambies la configuración pr
 ```lua
 local default_config = {
     terminal_colors = true, -- habilitar colores para la terminal
-    variant = "blur", -- puede usar: sakura_night_blur, blur
+    variant = "blur", -- puede usar: sakura_night_blur, cute_blur, blur
     styles = { -- Puedes definir el estilo utilizando el formato: estilo = valor
         comments = {}, -- estilo para comentarios
         keywords = {}, -- estilo para palabras clave
@@ -91,7 +91,7 @@ Para configurar una opción, debes pasar esa configuración con el nuevo valor, 
 
 ```lua
 require("gentleman_kanagawa_blur").setup({
-    variant = "sakura_night_blur", -- Cambiar aquí la variante ( sakura_night_blur, blur)
+    variant = "sakura_night_blur", -- Cambiar aquí la variante ( sakura_night_blur, cute_blur, blur)
     styles = {
         booleans = { italic = true, bold = true },
     },
