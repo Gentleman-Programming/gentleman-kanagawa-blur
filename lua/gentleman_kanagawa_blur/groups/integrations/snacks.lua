@@ -3,7 +3,7 @@ local p = require("gentleman_kanagawa_blur.palette")
 return {
 	SnacksIndent = { fg = p.gray3 },
 	SnacksIndentScope = { fg = p.subtext4 },
-	SnacksDashboardHeader = { fg = p.purple },
+	SnacksDashboardHeader = { fg = p.dashboard_header or p.purple },
 	SnacksDashboardDesc = { fg = p.subtext1 },
 	SnacksDashboardKey = { fg = p.magenta, bold = true },
 	SnacksDashboardIcon = { fg = p.subtext1 },
