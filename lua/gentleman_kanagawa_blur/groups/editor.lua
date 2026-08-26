@@ -24,7 +24,7 @@ return {
 	VisualNOS = { bg = p.surface1 },
 
 	-- Directorios y títulos
-	Directory = { fg = p.purple },
+	Directory = { fg = p.directory or p.purple },
 	Title = { fg = p.green },
 
 	-- Diffs y Git (con backgrounds más sutiles)
